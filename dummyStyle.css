@@ -44,19 +44,11 @@ div.mainPanel {
 div.image_area {
     background-image: url("images/city panorama.jpg");
     width: 100%;
-    height: 57.55%;
+    height: %;
     background-size:contain;
     background-repeat: no-repeat;
 }
 
-div.image_area_center {
-   top: 25%;
-   left: 25%;
-   height: 100%;
-   width: 80%;
-   position: center;
-
-}
 
 img.banner_logo{
     margin-left: 5%;
