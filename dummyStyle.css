@@ -28,7 +28,7 @@ div.mainPanel {
 }
 
 div.image_area {
-    background-image: url("images/Disaster.jpg");
+    background-image: url("images/city panorama.jpg");
     width: 100%;
     height: 50%;
     background-size:contain;
@@ -133,7 +133,7 @@ p.panelTitle {
 ul.banner_menu {
     text-align: right;
     font-size: 125%;
-    width: 99.7%;
+    width: 100%;
     background-color: gold;
     border-bottom:5px solid #CC9900;
     margin: 0px 0px 20px 0px ;
