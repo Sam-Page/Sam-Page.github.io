@@ -1,0 +1,191 @@
+div.Banner {
+    width: 100%;
+    padding:2px;
+    background-color: #333333;
+    color: whitesmoke;
+    font-family:"Times New Roman", Times, serif;
+}
+div.Logo {
+    font-size:200%;
+    width:500px;
+    text-align:center;
+}
+div.estDate {
+    margin-top: 1cm;
+    margin-right: 2cm;
+    float: right;
+    font-size:125%;
+}
+
+div.mainPanel {
+
+    padding:1px;
+    width: 100%;
+    min-width:100%;
+    height: 83.33%;
+    min-height: 50%;
+
+}
+
+div.image_area {
+    background-image: url("images/Disaster.jpg");
+    width: 100%;
+    height: 50%;
+    background-size:contain;
+}
+div.centralContent {
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+div.upperContent{
+    max-width: 100%;
+    height: 45%;
+}
+
+div.innerPanel {
+    border-radius:10px;
+    width: 45%;
+    min-width: 45%;
+    height:90%;
+    min-height: 90%;
+    float:left;
+    padding:10px;
+    text-align:center;
+}
+div.panelHeader {
+    float: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 10%;
+    width: 105%;
+    background-image: url("Textures/Red Wood.jpg");
+    color: gold;
+    border:2px solid black;
+    text-align: left;
+    margin-left: -11px;
+
+
+}
+div.panelBody {
+    float: bottom;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 90%;
+    width: 105%;
+    background-image: url("images/Disaster.jpg");
+    border:2px solid black;
+    margin-left: -11px;
+}
+div.vsArea {
+    float: right;
+    color:gold;
+    border-radius:10px;
+    margin-right: 2cm;
+    text-align:center;
+    width: 250px;
+    min-width: 15%;
+    max-width: 15%;
+    height: 750px;
+    padding:10px;
+}
+div.vsPanelHeader {
+    background-image: url("Textures/Red Wood.jpg");
+    float: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 5%;
+    width: 105%;
+    color: gold;
+    border-bottom:2px solid gold;
+    text-align: center;
+    font-size: 150%;
+    margin-left: -11px;
+}
+div.vsPanelBody {
+
+    float: bottom;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 95%;
+    min-height: 90%;
+    width: 105%;
+    border:2px solid gold;
+    margin-left: -11px;
+    margin-bottom: 20px;
+    background-image: url("Textures/Red Wood.jpg");
+<!--background-color: rgb(255,215,0);-->
+}
+div.footer {
+   background-color: #333333;
+    text-align:center;
+    padding:5px;
+    color:gold;
+}
+p.panelTitle {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+ul.banner_menu {
+    text-align: right;
+    font-size: 125%;
+    width: 99.7%;
+    background-color: gold;
+    border-bottom:5px solid #CC9900;
+    margin: 0px 0px 20px 0px ;
+
+    display: inline-block;
+}
+li.banner_menu_option {
+
+    border:0px solid rgb(100,100,100);
+    border-radius: 5%;
+    display: inline-block;
+    padding: 0px 120px 0px 3px ;
+    background-color: gold;
+}
+ul li.banner_menu_option {
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 21px;
+}
+ul li.banner_menu_option ul {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+
+a:link    {
+    color:#000000; background-color:transparent; text-decoration:none
+}
+a:visited {
+    color:#000000; background-color:transparent; text-decoration:none
+}
+a:hover   {
+    color:#000000; background-color:transparent; text-decoration:none
+}
+a:active  {
+    color:#000000; background-color:transparent; text-decoration:none
+}
+
+
+#wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#lowerPanelHead #lowerPanelBody {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
